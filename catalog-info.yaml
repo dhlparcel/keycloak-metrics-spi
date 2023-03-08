@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: keycloak-metrics-spi
+  description: keycloak-metrics-spi
+  annotations: 
+    github.com/project-slug: dhlparcel/keycloak-metrics-spi
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - iam
+spec:
+  type: library
+  lifecycle: production
+  owner: devex-users
