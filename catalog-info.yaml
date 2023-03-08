@@ -6,8 +6,9 @@ metadata:
   annotations: 
     github.com/project-slug: dhlparcel/keycloak-metrics-spi
     backstage.io/techdocs-ref: dir:.
-    
+  tags:
+    - iam
 spec:
-  type: component
+  type: library
   lifecycle: production
-  owner: admins
+  owner: devex-users
